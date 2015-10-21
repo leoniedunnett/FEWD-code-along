@@ -7,15 +7,15 @@ $('#whiteButton').click(function(){
     switchColor('white');
 });
 
-// // Example 1
-// function switchOne() {
-//     $("body").css({"background-color":"gray","color":"white"});
-// }
+// Example 1
+function switchOne() {
+    $("body").css({"background-color":"gray","color":"white"});
+}
 
-// // Example 2
-// function switchOne() {
-//     $('body').attr('class', 'gray');
-// }
+// Example 2
+function switchOne() {
+    $('body').attr('class', 'gray');
+}
 
 // Example 3
 function switchColor(colorName){
