@@ -26,7 +26,7 @@ $('#question1').click(toggleAnswer1);
 
 
 
-// Step 4: slideToggle #answer1 and #answer2 on user click
+// Step 4: slideToggle #answer2 on user click
 
 function toggleAnswer1() {
   $('#answer1').slideToggle();
@@ -39,7 +39,7 @@ $('#question2').click(toggleAnswer2);
 
 
 
-//Step 5: slideToggle #answer1, #answer2 and #answer3 on user click
+//Step 5: slideToggle #answer3 on user click
 
 function toggleAnswer1() {
   $('#answer1').slideToggle();
