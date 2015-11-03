@@ -1,13 +1,8 @@
-// Global variable not good practice
-//var total = 0;
-
 // When user clicks #convert button, convert input
 //document.getElementById('convert').onclick = convert; //js
 $('#convert').click(convert); //jQuery
 
 function convert() {
-
-  //Define local variables first
   var total = 0;
   // var input = document.getElementById('input').value; //js
   var input = $('#input').val(); //jQuery
