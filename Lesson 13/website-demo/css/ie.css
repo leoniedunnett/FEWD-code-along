@@ -1,0 +1,37 @@
+/* Layout */
+nav {float: right;}
+nav a {float:left;}
+.mobile-nav{display:none;}
+
+.home-intro {
+    padding-bottom: 3em; /* 48px */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/ga-background.jpg");
+}
+.content-wrap {max-width: 1240px;}
+
+/* Font */
+.home-intro h1 {
+    font-size: 5em; /* 80px */
+    margin-top: 26px; /*fallback*/
+    margin-top: 1.625rem; /* rem vs em example */
+}
+.home-intro p {font-size: 1.250em;} /* 20px */
+
+.content-box {
+    display:inline-block;
+    vertical-align: top;
+    padding: 2% 3%;
+    width: 33.3333%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+}
+
+
+.ie7 body {margin-bottom:0;}
+.ie7 .content-box {padding:2% 0;}
+.ie7 footer{
+    position: relative;
+    height:2em;
+    padding-bottom:0;
+}
